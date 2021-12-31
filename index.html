@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html style="overflow:hidden;overflow-x:hidden;">
+
 <head>
     <meta charset="utf-8" />
     <title>ELLIOT PATTERSON - VORONOI</title>
     <style>
-        html, body, div, canvas {
+        html,
+        body,
+        div,
+        canvas {
             margin: 0;
             padding: 0;
         }
     </style>
 </head>
+
 <body style="float:left;">
     <canvas id="canvas" width="1720" style="width:100%;height:100%;"></canvas>
-    
+
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script language="javascript" src="https://npmcdn.com/regl/dist/regl.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.5/pixi.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
     <script type="module" src="ELLIOT PATTERSON - VORONOI.js"></script>
-    
+
 </body>
 <div style="float:right;">
-    
+
     <p>Input the number of Points</p>
     <p>to be Added.</p>
     <div>
@@ -40,7 +45,6 @@
             <option value=1 selected>Euclidean</option>
             <option value=2>Manhattan</option>
             <option value=3>Minkovski</option>
-            <option value=4>Test</option>
         </select>&nbsp;
     </div>
     <p>Click to Render</p>
@@ -53,4 +57,5 @@
     </div>
 
 </div>
+
 </html>
